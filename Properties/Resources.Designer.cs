@@ -19,7 +19,7 @@ namespace autobug.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -57,69 +57,6 @@ namespace autobug.Properties {
             }
             set {
                 resourceCulture = value;
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Adailton
-        ///Adauto
-        ///Adelino
-        ///Agenor
-        ///Albino
-        ///Amaro
-        ///Ambrósio
-        ///Anélcio
-        ///Arcanjo
-        ///Ariovaldo
-        ///Aristênio
-        ///Arnaldo
-        ///Arnóbio
-        ///Astolfo
-        ///Astrogildo
-        ///Balbino
-        ///Baltazar
-        ///Crescêncio
-        ///Deoclides
-        ///Diógenes
-        ///Dirceu
-        ///Durvalino
-        ///Edvaldo
-        ///Eliseu
-        ///Elmo
-        ///Eustáquio
-        ///Felizardo
-        ///Gérson
-        ///Gilson
-        ///Godofredo
-        ///Heraldo
-        ///Hilário
-        ///Hildebrando
-        ///Inocêncio
-        ///Jurandir
-        ///Leôncio
-        ///Leônidas
-        ///Ludovico
-        ///Militão
-        ///Milton
-        ///Nelson
-        ///Nicanor
-        ///Onofre
-        ///Orestes
-        ///Osmar
-        ///Petrônio
-        ///Petrúcio
-        ///Plácido
-        ///Romildo
-        ///Severino
-        ///Simplício
-        ///Teobaldo
-        ///Valdemar
-        ///Valdomiro
-        ///V [rest of string was truncated]&quot;;.
-        /// </summary>
-        internal static string Nomes {
-            get {
-                return ResourceManager.GetString("Nomes", resourceCulture);
             }
         }
     }
