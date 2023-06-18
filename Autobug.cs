@@ -12,7 +12,7 @@ namespace autobug
     {
         #region Variables
         double _size, _speed, _biteSize, _age, _lifespan;
-        double _sizeMultiplyier, _speedMultiplyier, _biteSizeMultiplyier, _lifespanMultiplyier;
+        double _sizeMultiplier, _speedMultiplier, _biteSizeMultiplier, _lifespanMultiplier;
         Bugbrain brain = new Bugbrain();
         Vector _actualPosition;
         public TranslateTransform pos = new TranslateTransform();
@@ -36,7 +36,7 @@ namespace autobug
 
             set
             {
-                _biteSize = value * _biteSizeMultiplyier;
+                _biteSize = value * _biteSizeMultiplier;
             }
         }
         public double Size
@@ -61,7 +61,7 @@ namespace autobug
 
             set
             {
-                _speed = value * _speedMultiplyier;
+                _speed = value * _speedMultiplier;
             }
         }
         public double Age
@@ -85,7 +85,7 @@ namespace autobug
 
             set
             {
-                _lifespan = value * _lifespanMultiplyier;
+                _lifespan = value * _lifespanMultiplier;
             }
         }
 
@@ -134,7 +134,7 @@ namespace autobug
         #region Methods
         public void hatch()
         {
-            _sizeMultiplyier = _speedMultiplyier = _biteSizeMultiplyier = _lifespanMultiplyier = 1;
+            _sizeMultiplier = _speedMultiplier = _biteSizeMultiplier = _lifespanMultiplier = 1;
             _size = 2;
             ActualPosition = new Vector(Measure2.Random(-300, 300), Measure2.Random(-300, 300));
             _speed = 0.1;
@@ -259,19 +259,19 @@ namespace autobug
             {
                 case 0:
                     Type = "GLUTÃO";
-                    _biteSizeMultiplyier = multiplyer;
+                    _biteSizeMultiplier = multiplyer;
                     break;
                 case 1:
                     Type = "APRESSADINHO";
-                    _speedMultiplyier = multiplyer;
+                    _speedMultiplier = multiplyer;
                     break;
                 case 2:
                     Type = "ZÉ";
-                    _biteSizeMultiplyier = 1;
+                    _biteSizeMultiplier = 1;
                     break;
                 case 3:
                     Type = "MATUSALÉM";
-                    _lifespanMultiplyier = multiplyer;
+                    _lifespanMultiplier = multiplyer;
                     break;
                 case 4:
                     Type = "EINSTEIN";
